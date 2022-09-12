@@ -1,0 +1,70 @@
+body {
+    font-family: 'Trebuchet MS';
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.page-title {
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 4;
+    margin: 0 0 5px;
+    text-shadow: 0.2em 0.3em 0.1em #777, -0.2em 0.1em 0.1em #777, 0.3em -0.2em 0.1em #777;
+    margin-bottom: 20px;
+}
+
+.page-subtitle {
+    color: blueviolet;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: #888;
+    color: lightgray;
+    font-family: "Roboto mono", monospace;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+button {
+    border: none;
+    background-color: blueviolet;
+    color: lightgray;
+    font-family: "Roboto mono", monospace;
+    padding: 15px 32px;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+
+}
+
+button:hover {
+    background-color: #006;
+    color: lightgray;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.bola-magica {
+    width: 200px;
+}
