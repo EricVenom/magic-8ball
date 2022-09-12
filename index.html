@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Magic 8 Ball</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Magic 8 Ball</h1>
+        <p class="page-subtitle">A esfera mágica que te aconselhará sobre o futuro ou sanará duvidas do passado. Se
+            concentre e pergunte, ela te responderá!</p>
+        <label for="question">Digite sua pergunta:</label><br>
+        <input type="text" id="question" maxlength="280"
+            placeholder='Para melhores conselhos, pense em perguntas cujas respostas sejam "sim" ou "não".'><br>
+        <button type="submit" onclick="magicReply()">Perguntar</button>
+        <h2 id="reply"></h2>
+        <img src="img-bola.png" alt="" class="bola-magica">
+    </div>
+</body>
+
+</html>
